@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<SCRIPT language="JavaScript">
+    <!--hide
+        var password;
+        var pass1="deepali1438318432057";
+        password=prompt('Please enter you password to view this page!',' ')
+        if (password==pass1)
+         alert('Password Correct! Click OK to enter!');
+        else
+         {window.location="https://www.google.co.in/";}
+        //-->
+</SCRIPT>
+<style>
+
+    *
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+}
+body
+{
+background-color: rgb(240, 154, 168);
+}
+.head
+{
+padding: 20px;
+letter-spacing: 1px;
+}
+.main
+{
+position: absolute;
+}
+.main-nav
+{
+float: left;
+list-style-type: none;
+margin-top: 25px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.main-nav li a
+{
+text-decoration: none;
+color: rgb(7, 6, 12) ;
+font: bold;
+padding: 4px 8px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+margin: 5px;
+}
+.main-nav li a:hover
+{
+background-color:  rgb(238, 117, 137);
+color: rgb(7, 6, 12);
+font :bold;
+}
+.main-nav li.active a
+{
+background-color: rgb(238, 117, 137);
+color: #000;
+font: bold;
+}
+.body
+{
+width: 95%;
+height: 600px;
+background: rgb(240, 104, 126);
+display: flex ;
+margin: 80px auto;
+}
+.right-side
+{
+display: flex;
+float: left;
+width: 50%;
+padding: 20px;
+height: 300px;
+}
+.right-side .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+    background: #3d3f3f;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.about-img::before {
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: 15px;
+    border: 10px solid rgba(31, 30, 30, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.about-img img {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left-side
+{
+display: flex;
+margin-top: 30px;
+float: left;
+width: 100%;
+padding: 60px;
+height: 400px;
+}
+.info h1
+{
+font-size: 40px;
+margin-left: 35%;
+}
+.info h2
+{
+font-size: 25px;
+margin-left: 40px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+.info h2 span
+{
+color: whitesmoke;
+font-size: 35px;
+}
+.info p
+{
+line-height: 22px;
+font-size: 20px;
+margin-left: 40px;
+margin-bottom: 25px;
+}
+.info a
+{
+text-decoration: none;
+color: black;
+margin-top: 10px;
+}
+.info a i
+{
+font-size: 1.5rem;
+}
+.container2
+{
+width: 95%;
+height: auto;
+padding: 10px;
+margin: 80px auto;
+display: flex ;
+justify-content: center;
+}
+.box
+{
+width: 380px;
+height: 700px;
+background:  rgb(240, 104, 126);
+margin: 0px 10px;
+transition: 1s;
+}
+.box:hover
+{
+transform: scale(1.1);
+background:  rgb(201, 85, 105);
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
+}
+.box-img img
+{height: 110px;
+width: 110px;
+background-size: cover;
+background-position: center;
+border-radius: 50px;
+transform: translate(-50%,-50%);
+position: relative;
+margin-top: 30%;
+margin-left: 50%;
+}
+.box-text
+{
+padding: 10px;
+margin: 5px;
+}
+.box-text h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.box-text p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.box-text a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.box-text a:hover
+{
+background-color:rgb(238, 117, 137);
+color: whitesmoke;
+font :bold;}
+.left-side {
+            display: flex;
+            margin-top: 30px;
+            float: left;
+            width: 100%;
+            padding: 60px;
+            height: 400px;
+        }
+
+        .left-side .info {
+            flex: 3;
+        }
+
+        .left-side .welcome-image {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex: 1.8;
+        }
+
+        .welcome-image img {
+            margin-top: 150px;
+            margin-left:300px;
+            margin-right: auto;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 30px;
+        }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+        <div class="body">
+            <div class="container1">
+                <div class="row">
+                    <div class="left-side">
+                        <div class="info">
+                            <h1>Welcome!</h1><br><br>
+                            <a href="#"><i class="fa fa-quote-left"></i></a>
+                            <h2>Hi, I'm <span></span></h2>
+                            <p>“With you and me, I don't know what anything, means.  <br><br> We're pushing each other away and yet I don't seem <br><br>to be able to let you go.” </p><br>
+                            <a href="#"><i class="fa fa-quote-right"></i></a>
+                            <h4>Hopefully you'r reading this after 8th of feb.</h4>
+                        </div>
+                        <div class="welcome-image">
+                            <img src="WhatsApp Image 2024-01-11 at 1.46.50 AM.jpeg" alt="Welcome Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container2">
+            <div class="box">
+            <div class="box-img">
+            <img src="a.jpeg">
+            </div>
+            <div class="box-text">
+            <h2>    Heartfelt Apology</h2>
+            <a href="https://anirudh9983.github.io/Apology/">view more</a>
+            </div>
+            </div>
+            <div class="box">
+            <div class="box-img">
+            <img src="im.jpeg ">
+            </div>
+            
+            </div>
+            <div class="box">
+            <div class="box-img">
+            <img src="WhatsApp Image 2024-01-11 at 1.46.51 AM (1).jpeg">
+            </div>
+            <div class="box-text">
+            <h2>Farewell Message</h2>
+            <a href="https://anirudh9983.github.io/farewell/">view more</a>
+            </div>
+            </div>
+            </div>
+</body>
+</html>
